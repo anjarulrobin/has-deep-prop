@@ -1,6 +1,6 @@
 {
   "name": "has-deep-prop",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package helps to check whether an object has some deep property or not. If it has then get the value of that property",
   "main": "index.js",
   "scripts": {
