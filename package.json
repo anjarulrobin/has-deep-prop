@@ -1,0 +1,11 @@
+{
+  "name": "has-deep-prop",
+  "version": "1.0.0",
+  "description": "This package helps to check whether an object has some deep property or not. If it has then get the value of that property",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjarul Islam",
+  "license": "ISC"
+}
