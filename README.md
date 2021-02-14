@@ -7,7 +7,8 @@ To install the package run
 > $ npm install has-deep-prop
 
 # Usage
-``` const hasDeep = require('has-deep-prop');
+``` 
+const hasDeep = require('has-deep-prop');
 
 const deepObject = { name: { first:"John", last:"Doe" } };
 const firstName = hasDeep(deepObject, "name.first"); // <= "John"
@@ -21,6 +22,7 @@ const firstName = hasDeep(deepObject, "name.first"); // <= "John"
 
 # Example:
 ```
+const hasDeep = require('has-deep-prop');
 const deepObject = { person: [{ address:[{city:"Dhaka"}, {city:"Chittagong"}] }] };
 const city1 = hasDeep(deepObject, "person.0.address.0.city"); // <= "Dhaka"
 const city2 = hasDeep(deepObject, "person.0.address.3.city"); // <= undefined
