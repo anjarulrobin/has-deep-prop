@@ -5,7 +5,7 @@ const hasDeepProp = (obj, deepKey) => {
   const keys = deepKey.split(".");
 
   for (const key of keys) {
-    value = (value && value[key]) ? value[key] : undefined;
+    value = (value && value.hasOwnProperty(key)) ? value[key] : undefined;
   }
 
   return value;
